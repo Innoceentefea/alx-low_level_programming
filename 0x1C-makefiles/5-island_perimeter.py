@@ -17,7 +17,7 @@ def island_perimeter(grid):
         The island doesn’t have “lakes” (water inside that isn’t
         connected to the water around the island).
     """
-    
+
     grid_edges = 0
 
     for k in range(len(grid)):
